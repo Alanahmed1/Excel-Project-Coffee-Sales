@@ -36,7 +36,7 @@ The following Excel skills were utilized for analysis:
 # 📊 Data Sales Dataset
 
 ### 🛒 Order :
-***Order ID, Order Date, Customer ID, Product ID, Quantity***
+***Order ID, Order Date, Customer ID, Product ID,and Quantity***
 
 ### 👤Customer:
 ***Customer ID, Customer Name, Email, Phone Number, Address, City, Country, Postcode, and loyalty card.***
@@ -116,7 +116,8 @@ I showcased the top contributors to sales with a **Bar Chart** and a **complemen
   ```DAX
   Rank = RANKX(ALL(Customer), [Total Sales], , DESC)
 ```
-The PivotTable was filtered to display only the Top 5 Customers, and the results were presented in a bar chart alongside a table, providing both graphical and tabular insights.
+![1_Sales_Dashboard-Top5Customers](/Assets/Top_5_Customers.png)
+***The PivotTable was filtered to display only the Top 5 Customers, and the results were presented in a bar chart alongside a table, providing both graphical and tabular insights***.
 
 ## Slicers and Timeline Integration ☕️
 
